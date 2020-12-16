@@ -63,3 +63,18 @@ Elastic Search 里的文档输入格式全为 JSON。当你把一个 JSON 文档
 2. 处理完后 Elastic Search 会把你的文档拆成很多域（即 Field）。比如说，豆瓣电影的数据会有 `电影名`, `演员`，`打分` 这三个域
 3. 处理完域后，Elastic Search 会把这些域转为一个 Lucene 文档，然后交给 Lucene 真正地插入到 Lucene 的倒排引擎里
 4. 当你在搜索时，Elastic Search 会把你的查询，转换好，交给 Lucene。Lucene 返回的结果再包装一下，还给 Elastic Search，最后返回给用户
+
+***
+
+笔记：
+
+![image](https://user-images.githubusercontent.com/34562805/102298801-c3ed1d00-3f8c-11eb-8a53-5583074d442e.png)
+
+![image](https://user-images.githubusercontent.com/34562805/102298995-2514f080-3f8d-11eb-83de-fe7e5bbbfc82.png)
+
+![image](https://user-images.githubusercontent.com/34562805/102299394-d7e54e80-3f8d-11eb-9cef-8f58b4209fd8.png)
+
+![image](https://user-images.githubusercontent.com/34562805/102325856-a042ca80-3fbe-11eb-9b9f-5f94e4c80d89.png)
+
+![image](https://user-images.githubusercontent.com/34562805/102325957-c1a3b680-3fbe-11eb-8327-cd1adeb7652a.png)
+
