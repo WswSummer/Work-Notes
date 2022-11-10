@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "85b08827f6c93a14",
+        "id": "a159bc36b5e3aa9e",
         "type": "tabs",
         "children": [
           {
-            "id": "ab8951e89dcd339c",
+            "id": "5271042079b34b71",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -128,12 +128,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab8951e89dcd339c",
+  "active": "5271042079b34b71",
   "lastOpenFiles": [
     "Docker部署.md",
+    "消息队列学习.md",
     "工作中学习记录.md",
     "分布式事务.md",
-    "CI and CD.md",
-    "消息队列学习.md"
+    "CI and CD.md"
   ]
 }
